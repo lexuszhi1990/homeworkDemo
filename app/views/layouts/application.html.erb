@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo</title>
+  <link rel="shortcut icon" href="<%= asset_path("logo1.png") %>" />
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header class="site_header" role="header" id="page_header">
+    <nav class="head_nav">
+        <ul class="head_ul">
+            <li><a href="/">home</a></li>
+            <li><a href="details">details</a></li>
+            <li><a href="post">blog</a></li>
+            <li><a href="about">about</a></li>
+        </ul>
+    </nav>
+  </header>
+
+<%= yield %>
+
+</body>
+</html>
