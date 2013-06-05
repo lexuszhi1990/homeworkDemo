@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Demo</title>
+  <title>Zhongbei</title>
   <link rel="shortcut icon" href="<%= asset_path("logo1.png") %>" />
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header class="site_header" role="header" id="page_header">
-    <nav class="head_nav">
-        <ul class="head_ul">
-            <li><a href="/">home</a></li>
-            <li><a href="details">details</a></li>
-            <li><a href="post">blog</a></li>
-            <li><a href="about">about</a></li>
-        </ul>
-    </nav>
-  </header>
-
-<%= yield %>
-
+  <div class="wrap">
+    <header class="header">
+      <h1>中北大学</h1>
+      <h3>探测制导与控制技术-09010541-付凌志</h3>
+    </header>
+    <%= yield %>
+  </div>
 </body>
 </html>

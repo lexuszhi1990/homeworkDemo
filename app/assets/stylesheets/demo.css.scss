@@ -2,23 +2,12 @@ body, html{
   padding: 0;
   margin: 0;
 }
+
 .wrap {
-  max-width: 740px;
-  max-width: 37rem;
+  width: 960px;
   margin: 0 auto;
   padding: 0 1.5em;
 }
 
-.siteheader {
-  background-color: rgba(0,0,0,.5);
-  color: #fff;
-  padding: 1.5rem 0;
-  z-index: 1;
-}
-
-.head_nav {
-}
-
-.head_ul li{
-  display: inline;
+.header {
 }
